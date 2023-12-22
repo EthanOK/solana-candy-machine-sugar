@@ -1,33 +1,34 @@
 {
-    "number": 10,
-    "symbol": "NB",
-    "sellerFeeBasisPoints": 500,
-    "isMutable": true,
-    "isSequential": false,
-    "ruleSet": null,
-    "creators": [
-        {
-            "address": "9rRKxLGok9xkP9jEotH783awqdesBSWsgJiC2ucPXPXU",
-            "share": 100
-        }
-    ],    
-    "uploadMethod": "bundlr",
-    "awsS3Bucket": null,
-    "retainAuthority": true,
-    "awsConfig": null,
-    "nftStorageAuthToken": null,
-    "shdwStorageAccount": null,
-    "pinataConfig": null,
-    "hiddenSettings": null,
-    "guards": {
-        "default": {
-          "solPayment": {
-            "value": 0.5,
-            "destination": "9rRKxLGok9xkP9jEotH783awqdesBSWsgJiC2ucPXPXU"
-          },
-          "startDate": {
-            "date": "2022-10-23T20:00:00Z"
-          }
-        }
-      }    
+  "tokenStandard": "nft",
+  "number": 11,
+  "symbol": "NB",
+  "sellerFeeBasisPoints": 500,
+  "isMutable": true,
+  "isSequential": true,
+  "ruleSet": null,
+  "creators": [
+    {
+      "address": "9rRKxLGok9xkP9jEotH783awqdesBSWsgJiC2ucPXPXU",
+      "share": 100
+    }
+  ],
+  "uploadMethod": "bundlr",
+  "awsS3Bucket": null,
+  "retainAuthority": true,
+  "awsConfig": null,
+  "nftStorageAuthToken": null,
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+  "guards": {
+    "default": {
+      "solPayment": {
+        "value": 0.5,
+        "destination": "9rRKxLGok9xkP9jEotH783awqdesBSWsgJiC2ucPXPXU"
+      },
+      "startDate": {
+        "date": "2023-12-22T06:00:00Z"
+      }
+    }
+  }
 }

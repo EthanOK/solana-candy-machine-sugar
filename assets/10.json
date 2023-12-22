@@ -1,0 +1,25 @@
+{
+  "name": "Number #0011",
+  "symbol": "NB",
+  "description": "Collection of 10 numbers on the blockchain. This is the number 11/10.",
+  "image": "10.png",
+  "attributes": [
+    {
+      "trait_type": "Number",
+      "value": "11"
+    },
+    {
+      "trait_type": "BAYC",
+      "value": "175"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "10.png",
+        "type": "image/png"
+      }
+    ],
+    "category":"image"
+  }
+}
